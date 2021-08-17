@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="watch">
+        <div class="timer">
+            <div><h1 id="hr">00</h1> <span>Hours</span></div>
+            <div><h1 id="min">00</h1> <span>Minutes</span></div>
+            <div><h1 id="sec">00</h1> <span>Seconds</span></div>
+            <div><h1 id="milli">00</h1><span>Milliseconds</span>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="start" onclick="start()">START</button>
+            <button id="stop" onclick="stop()">STOP</button>
+            <button id="reset" onclick="reset()">RESET</button>
+        </div>
+    </section>
+
+    <span id="copyright">@All Rights Reserved By Topu Roy Antu</span>
+    
+    <script src="script.js"></script>
+</body>
+</html>
